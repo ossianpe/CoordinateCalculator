@@ -7,37 +7,37 @@ v1.0
 
 ------------------
 
-/*****************************************************************/
-/*                                                               */
-/*  Programmer Name: Peter Ossian                                */
-/*  Date: 6/17/2014                                              */
-/*                                                               */
-/*===============================================================*/
-/*                                                               */
-/*  Program Definition:                                          */
-/*                                                               */
-/*   Reads from textfile called "inFile.txt" and calculates the  */
-/*  distance from the first coordinate to the remaining          */
-/*  coordinates in the text file. The program sorts the          */
-/*  coordinates by distance and prints them onscreen             */
-/*                                                               */
-/*===============================================================*/
-/*                                                               */
-/*  Identifier Dictionary:                                       */
-/*                                                               */
-/*     class coordHandler  |                                     */
-/*  _______________________|                                     */
-/* /                                                             */
-/* | x           --|                                             */
-/* | y             |__ struct coordinates                        */
-/* | z             |    (defined as coordinates hpoint &         */
-/* | distance    --|            vector<coordinates> cdvec)       */
-/* | setHomePoint                                                */
-/* | readNextLine                                                */
-/* | calculateDistance                                           */
-/* | printSortedByDistance                                       */
-/* | sortVector                                                  */
-/* | pushElements                                                */
-/* | incrementVectorSize                                         */
-/*                                                               */
-/*****************************************************************/
+/*****************************************************************/<br>
+/*                                                               */<br>
+/*  Programmer Name: Peter Ossian                                */<br>
+/*  Date: 6/17/2014                                              */<br>
+/*                                                               */<br>
+/*===============================================================*/<br>
+/*                                                               */<br>
+/*  Program Definition:                                          */<br>
+/*                                                               */<br>
+/*   Reads from textfile called "inFile.txt" and calculates the  */<br>
+/*  distance from the first coordinate to the remaining          */<br>
+/*  coordinates in the text file. The program sorts the          */<br>
+/*  coordinates by distance and prints them onscreen             */<br>
+/*                                                               */<br>
+/*===============================================================*/<br>
+/*                                                               */<br>
+/*  Identifier Dictionary:                                       */<br>
+/*                                                               */<br>
+/*     class coordHandler  |                                     */<br>
+/*  _______________________|                                     */<br>
+/* /                                                             */<br>
+/* | x           --|                                             */<br>
+/* | y             |__ struct coordinates                        */<br>
+/* | z             |    (defined as coordinates hpoint &         */<br>
+/* | distance    --|            vector<coordinates> cdvec)       */<br>
+/* | setHomePoint                                                */<br>
+/* | readNextLine                                                */<br>
+/* | calculateDistance                                           */<br>
+/* | printSortedByDistance                                       */<br>
+/* | sortVector                                                  */<br>
+/* | pushElements                                                */<br>
+/* | incrementVectorSize                                         */<br>
+/*                                                               */<br>
+/*****************************************************************/<br>
